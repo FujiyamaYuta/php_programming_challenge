@@ -22,7 +22,7 @@ try{
 	}
 
 } catch (PDOException $e) {
-	registMessage("NotTable");
+	registMessage("Error");
 }finally{
 }
 

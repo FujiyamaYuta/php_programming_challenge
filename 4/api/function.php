@@ -24,7 +24,7 @@ try{
 	registMessage($str);
 
 } catch (PDOException $e) {
-	registMessage("NotTable");
+	registMessage("ERROR");
 }finally{
 }
 

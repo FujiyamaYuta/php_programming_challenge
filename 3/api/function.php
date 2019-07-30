@@ -13,7 +13,7 @@ try{
 	$json = file_get_contents("https://jsonplaceholder.typicode.com/posts");
 	registMessage($json);
 } catch (PDOException $e) {
-	registMessage("NotTable");
+	registMessage("ERROR");
 }finally{
 }
 
